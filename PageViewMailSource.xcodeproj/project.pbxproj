@@ -13,6 +13,7 @@
 		8B340A351E3CFCC900F9EFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B340A331E3CFCC900F9EFDB /* Main.storyboard */; };
 		8B340A371E3CFCC900F9EFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B340A361E3CFCC900F9EFDB /* Assets.xcassets */; };
 		8B340A3A1E3CFCC900F9EFDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B340A381E3CFCC900F9EFDB /* LaunchScreen.storyboard */; };
+		8B6341C31E3E53DC0062141E /* Umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6341C21E3E53DC0062141E /* Umbrella.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8B340A361E3CFCC900F9EFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B340A391E3CFCC900F9EFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B340A3B1E3CFCC900F9EFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6341C21E3E53DC0062141E /* Umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Umbrella.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		8B340A291E3CFCC900F9EFDB /* PageViewMailSource */ = {
 			isa = PBXGroup;
 			children = (
+				8B6341C21E3E53DC0062141E /* Umbrella.png */,
 				8B340A2D1E3CFCC900F9EFDB /* AppDelegate.h */,
 				8B340A2E1E3CFCC900F9EFDB /* AppDelegate.m */,
 				8B340A301E3CFCC900F9EFDB /* ViewController.h */,
@@ -139,6 +142,7 @@
 				8B340A3A1E3CFCC900F9EFDB /* LaunchScreen.storyboard in Resources */,
 				8B340A371E3CFCC900F9EFDB /* Assets.xcassets in Resources */,
 				8B340A351E3CFCC900F9EFDB /* Main.storyboard in Resources */,
+				8B6341C31E3E53DC0062141E /* Umbrella.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +306,7 @@
 				8B340A401E3CFCC900F9EFDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
