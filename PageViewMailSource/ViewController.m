@@ -16,6 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSString *documentsDirectory = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+    NSString *pathArreglo = [documentsDirectory stringByAppendingString:@"/Inbox/ArregloDatos.asa"];
+    
+    
+    NSArray *arrDatos = [NSArray arrayWithContentsOfFile:pathArreglo];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
