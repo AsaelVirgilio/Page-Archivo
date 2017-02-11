@@ -7,14 +7,23 @@
 //
 
 #import "ViewController.h"
+#import "ModelController.h"
+#import "ViewControllerPage.h"
 
 @interface ViewController ()
+
+{
+    UIPageViewController *pageViewController;
+    ModelController     *modelController;
+    
+}
 
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     
     NSString *documentsDirectory = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];

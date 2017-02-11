@@ -70,6 +70,11 @@
 				8B340A381E3CFCC900F9EFDB /* LaunchScreen.storyboard */,
 				8B340A3B1E3CFCC900F9EFDB /* Info.plist */,
 				8B340A2A1E3CFCC900F9EFDB /* Supporting Files */,
+				8B8F9ECE1E3D9FFA00C15FAC /* ModelController.h */,
+				8B8F9ECF1E3D9FFA00C15FAC /* ModelController.m */,
+				8B8F9ED11E3DA12F00C15FAC /* ViewControllerPage.h */,
+				8B8F9ED21E3DA12F00C15FAC /* ViewControllerPage.m */,
+				8B8F9ED31E3DA12F00C15FAC /* ViewControllerPage.xib */,
 			);
 			path = PageViewMailSource;
 			sourceTree = "<group>";
@@ -154,8 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B340A321E3CFCC900F9EFDB /* ViewController.m in Sources */,
+				8B8F9ED01E3D9FFA00C15FAC /* ModelController.m in Sources */,
 				8B340A2F1E3CFCC900F9EFDB /* AppDelegate.m in Sources */,
 				8B340A2C1E3CFCC900F9EFDB /* main.m in Sources */,
+				8B8F9ED41E3DA12F00C15FAC /* ViewControllerPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
