@@ -29,8 +29,24 @@
     NSString *documentsDirectory = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
     NSString *pathArreglo = [documentsDirectory stringByAppendingString:@"/Inbox/ArregloDatos.asa"];
     
+    modelController = [ModelController new];
+//    modelController.arrDatos = [NSArray arrayWithContentsOfFile:pathArreglo];
     
     NSArray *arrDatos = [NSArray arrayWithContentsOfFile:pathArreglo];
+    pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
+    
+    pageViewController.delegate = self;
+    modelController.arrDatos = arrDatos;
+    
+    ViewControllerPage *page = [modelController viewControllerpageFromIndex:0];
+    
+    [pageViewController setViewControllers:@[page] direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
+    
+    pageViewController.dataSource = modelController;
+    
+    [self addChildViewController:pageViewController];
+    [self.view addSubview:pageViewController.view];
+    [pageViewController didMoveToParentViewController:self];
     
     // Do any additional setup after loading the view, typically from a nib.
 }

@@ -13,6 +13,9 @@
 		8B340A351E3CFCC900F9EFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B340A331E3CFCC900F9EFDB /* Main.storyboard */; };
 		8B340A371E3CFCC900F9EFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B340A361E3CFCC900F9EFDB /* Assets.xcassets */; };
 		8B340A3A1E3CFCC900F9EFDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B340A381E3CFCC900F9EFDB /* LaunchScreen.storyboard */; };
+		8B8F9ED01E3D9FFA00C15FAC /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F9ECF1E3D9FFA00C15FAC /* ModelController.m */; };
+		8B8F9ED41E3DA12F00C15FAC /* ViewControllerPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F9ED21E3DA12F00C15FAC /* ViewControllerPage.m */; };
+		8B8F9ED51E3DA12F00C15FAC /* ViewControllerPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8F9ED31E3DA12F00C15FAC /* ViewControllerPage.xib */; };
 		8B6341C31E3E53DC0062141E /* Umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6341C21E3E53DC0062141E /* Umbrella.png */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,11 @@
 		8B340A361E3CFCC900F9EFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B340A391E3CFCC900F9EFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B340A3B1E3CFCC900F9EFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B8F9ECE1E3D9FFA00C15FAC /* ModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		8B8F9ECF1E3D9FFA00C15FAC /* ModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		8B8F9ED11E3DA12F00C15FAC /* ViewControllerPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerPage.h; sourceTree = "<group>"; };
+		8B8F9ED21E3DA12F00C15FAC /* ViewControllerPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPage.m; sourceTree = "<group>"; };
+		8B8F9ED31E3DA12F00C15FAC /* ViewControllerPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerPage.xib; sourceTree = "<group>"; };
 		8B6341C21E3E53DC0062141E /* Umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Umbrella.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,6 +155,7 @@
 				8B340A3A1E3CFCC900F9EFDB /* LaunchScreen.storyboard in Resources */,
 				8B340A371E3CFCC900F9EFDB /* Assets.xcassets in Resources */,
 				8B340A351E3CFCC900F9EFDB /* Main.storyboard in Resources */,
+				8B8F9ED51E3DA12F00C15FAC /* ViewControllerPage.xib in Resources */,
 				8B6341C31E3E53DC0062141E /* Umbrella.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
